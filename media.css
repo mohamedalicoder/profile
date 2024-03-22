@@ -1,0 +1,220 @@
+/* ..............Start MediaScreen.............. */
+@media (max-width:991px) {
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    h5{
+        font-size: 18px;
+    }
+    /* .....Start Menu..... */
+    .menu{
+        display: flex;
+        background: #00000017;
+        backdrop-filter: blur(15px);
+        position: fixed;
+        bottom: 2rem;
+        left: 50%;      
+        transform: translate(-50%); 
+        padding: .8rem 1.8rem;
+        border-radius: 20px;
+        width: fit-content;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }    
+    .menu a{
+        font-size: 20px;
+        background: var(--shadow-color);
+        border-radius: 50%;
+        display: flex;
+        padding: .8rem;
+        transition: var(--transition);
+    }
+    .menu a:hover{
+        background: var(--color-black1);
+        color: var(--color-white);
+    }
+    /* .....Start Nav..... */ 
+    .navlinks{
+        display: none;
+    }
+    .logo{
+        margin: auto;
+    }    
+    /* .....Start header..... */
+    header{
+        height: auto;
+        padding-top: 200px;
+    } 
+     /* .....Start About..... */  
+     #About{
+        padding-top: 120px !important;
+     }
+     .about-container{
+        gap: 100px;
+     }
+      /* .....Start Services..... */ 
+      .myservices{
+        grid-template-columns: 1fr 1fr;
+      }
+           .book {
+        width: 380px;
+        height: 354px;
+      }
+      .containerr{
+         width: 380px;
+        height: 354px;
+      }
+        .cardd{
+         width: 380px;
+        height: 354px;
+      }
+      .black {
+  background-color: #1b1f22;
+  color: white;
+  h1 {
+    color: white;
+  }
+  h2 {
+    color: white;
+  }
+  h3 {
+    color: white;
+  }
+  h4 {
+    color: white;
+  }
+  i {
+    color: white;
+  }
+  .fot {
+    color: blueviolet;
+  }
+  #Services {
+    article {
+      background-color: white;
+
+      color: black;
+      h3 {
+        color: black;
+      }
+    }
+    article:hover {
+      background-image: linear-gradient(to right, #dadada, white);
+      transition: all 0.5s ease-in-out;
+    }
+ 
+  }
+}
+}
+
+@media (max-width:700px) {
+    h1{
+        font-size: 46px;
+    }
+    h2{
+        font-size: 38px;
+    }
+    p{
+        font-size: 18px;
+    }
+    body{
+        font-size: 18px;
+    }   
+
+    /*....... nav.... */
+    nav{
+        height: 4.4rem;
+        background: #00000017;
+        backdrop-filter: blur(15px);
+    }
+    /*....... Header.... */
+    header{
+        padding-top: 140px;
+    }
+    .header-container{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .header-right{
+        grid-row: 1;
+        width: 80%;
+        margin: auto;
+    }
+    .header-left{
+        text-align: center;
+    }
+    /*.......About.... */
+    .about-container{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .about-left{
+        width: 70%;
+        margin: auto;
+    }
+      /*.......Services, skills,works.... */
+      .myservices, .myskills, .myworks{
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+      }
+      .book {
+        width: 380px;
+        height: 354px;
+      }
+      .containerr{
+         width: 380px;
+        height: 354px;
+      }
+      .cardd{
+         width: 380px;
+        height: 354px;
+      }
+.black {
+  background-color: #1b1f22;
+  color: white;
+  h1 {
+    color: white;
+  }
+  h2 {
+    color: white;
+  }
+  h3 {
+    color: white;
+  }
+  h4 {
+    color: white;
+  }
+  i {
+    color: white;
+  }
+  .fot {
+    color: blueviolet;
+  }
+  #Services {
+    article {
+      background-color: white;
+
+      color: black;
+      h3 {
+        color: black;
+      }
+    }
+    article:hover {
+      background-image: linear-gradient(to right, #dadada, white);
+      transition: all 0.5s ease-in-out;
+    }
+  }
+}
+}
+/* ..............End MediaScreen.............. */
